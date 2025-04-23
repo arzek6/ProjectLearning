@@ -1,0 +1,11 @@
+{% if projects %}
+    {% for project in projects %}
+        <div class="project-card">
+            <h3>{{ project.name }}</h3>
+            <p class="description">{{ project.description }}</p>
+            <a href="{% url 'project_detail' project_id=project.id %}" class="btn">Подробнее</a>
+        </div>
+    {% endfor %}
+{% else %}
+    <p>На данный момент нет проектов.</p>
+{% endif %}

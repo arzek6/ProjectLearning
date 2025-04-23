@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Создать проект</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
+    <script src="{% static 'js/script.js' %}"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="{% url 'home' %}" class="logo">Проектное обучение</a>
+            <ul class="nav-links">
+                {% if user.is_authenticated %}
+                <li><a href="{% url 'home' %}">Главная</a></li>
+                <li><a href="{% url 'projects' %}">Проекты</a></li>
+                {% else %}
+                <li><a href="{% url 'home' %}">Главная</a></li>
+                <li><a href="{% url 'login' %}">Проекты</a></li>
+                {% endif %}
+            </ul>
+            <div class="auth-links">
+                {% if user.is_authenticated %}
+                <div class="user-dropdown" id="userDropdown">
+                    <button class="user-button" id="userButton">{{ user.first_name }}</button>
+                    <div class="dropdown-content" id="dropdownMenu">
+                        <form method="post" action="{% url 'logout' %}">
+                            {% csrf_token %}
+                            <button type="submit" class="logout-btn">Выйти</button>
+                        </form>
+                    </div>
+                </div>
+                {% else %}
+                <a href="{% url 'login' %}" class="btn">Войти</a>
+                <a href="{% url 'register' %}" class="btn">Регистрация</a>
+                {% endif %}
+            </div>
+        </nav>
+    </header>
+
+    <main class="create-project-container">
+        <h2>Создать проект</h2>
+
+        <form method="POST" action="{% url 'create_project' %}" class="project-form">
+            {% csrf_token %}
+    
+            {{ form.non_field_errors }}
+    
+            <label for="id_name">Название проекта</label>
+            {{ form.name }}
+    
+            <label for="id_description">Описание проекта</label>
+            {{ form.description }}
+    
+            <h3>Пригласить учеников</h3>
+            <div id="invite-container">
+                <input type="email" name="invite-emails[]" placeholder="Введите email ученика">
+            </div>
+            <button type="button" id="add-invite">Добавить еще приглашение</button>
+
+    
+            <h3>Задачи проекта</h3>
+            <div id="task-container">
+                <input type="text" name="tasks[]" placeholder="Введите задачу">
+            </div>
+            <button type="button" id="add-task">Добавить еще задачу</button>
+    
+            <button type="submit" class="submit-btn">Создать проект</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Проектное обучение</h3>
+                <p>Платформа для организации проектного обучения, взаимодействия между преподавателями и учениками.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Ссылки</h3>
+                <ul>
+                    {% if user.is_authenticated %}
+                    <li><a href="{% url 'home' %}">Главная</a></li>
+                    <li><a href="{% url 'projects' %}">Проекты</a></li>
+                    <li><a href="{% url 'home' %}">Регистрация</a></li>
+                    {% else %}
+                    <li><a href="{% url 'home' %}">Главная</a></li>
+                    <li><a href="{% url 'login' %}">Проекты</a></li>
+                    <li><a href="{% url 'register' %}">Регистрация</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <p>Email: yornamerator@yandex.ru</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Проектное обучение. Все права защищены.</p>
+
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('add-task').addEventListener('click', function() {
+            const taskContainer = document.getElementById('task-container');
+            const input = document.createElement('input');
+            input.type = 'text';
+            input.name = 'tasks[]';
+            input.placeholder = 'Введите задачу';
+            taskContainer.appendChild(input);
+        });
+
+        document.getElementById('add-invite').addEventListener('click', function() {
+            const inviteContainer = document.getElementById('invite-container');
+            const input = document.createElement('input');
+            input.type = 'email';
+            input.name = 'invite-emails[]';
+            input.placeholder = 'Введите email ученика';
+            inviteContainer.appendChild(input);
+        });
+    </script>
+</body>
+</html>

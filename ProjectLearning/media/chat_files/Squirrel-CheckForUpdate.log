@@ -1,0 +1,530 @@
+﻿[25.01.25 19:06:44] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[25.01.25 19:06:44] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[25.01.25 19:06:45] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Арсен\AppData\Local\Temp\.squirrel-lock-13A09732A3871AD6F074AC2EF957E69B590C47D8: System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Арсен\AppData\Local\Temp\.squirrel-lock-13A09732A3871AD6F074AC2EF957E69B590C47D8", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[25.01.25 19:06:45] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Арсен\AppData\Local\Temp\.squirrel-lock-13A09732A3871AD6F074AC2EF957E69B590C47D8: System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Арсен\AppData\Local\Temp\.squirrel-lock-13A09732A3871AD6F074AC2EF957E69B590C47D8", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[25.01.25 19:06:45] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Арсен\AppData\Local\Temp\.squirrel-lock-13A09732A3871AD6F074AC2EF957E69B590C47D8: System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Арсен\AppData\Local\Temp\.squirrel-lock-13A09732A3871AD6F074AC2EF957E69B590C47D8", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[25.01.25 19:06:46] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Арсен\AppData\Local\Temp\.squirrel-lock-13A09732A3871AD6F074AC2EF957E69B590C47D8: System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Арсен\AppData\Local\Temp\.squirrel-lock-13A09732A3871AD6F074AC2EF957E69B590C47D8", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[25.01.25 19:06:46] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Арсен\AppData\Local\Temp\.squirrel-lock-13A09732A3871AD6F074AC2EF957E69B590C47D8: System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Арсен\AppData\Local\Temp\.squirrel-lock-13A09732A3871AD6F074AC2EF957E69B590C47D8", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[25.01.25 19:06:46] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Арсен\AppData\Local\Temp\.squirrel-lock-13A09732A3871AD6F074AC2EF957E69B590C47D8: System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Арсен\AppData\Local\Temp\.squirrel-lock-13A09732A3871AD6F074AC2EF957E69B590C47D8", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[25.01.25 19:06:46] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Арсен\AppData\Local\Temp\.squirrel-lock-13A09732A3871AD6F074AC2EF957E69B590C47D8: System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Арсен\AppData\Local\Temp\.squirrel-lock-13A09732A3871AD6F074AC2EF957E69B590C47D8", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[25.01.25 19:06:47] fatal: Finished with unhandled exception: System.AggregateException: Произошла одна или несколько ошибок. ---> System.Exception: Couldn't acquire lock, is another instance running
+   в Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   в Squirrel.UpdateManager.<acquireUpdateLock>b__33_0()
+   в System.Threading.Tasks.Task`1.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Squirrel.UpdateManager.<CheckForUpdate>d__8.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   в Squirrel.Update.Program.executeCommandLine(String[] args)
+   в Squirrel.Update.Program.main(String[] args)
+---> (Внутреннее исключение #0) System.Exception: Couldn't acquire lock, is another instance running
+   в Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   в Squirrel.UpdateManager.<acquireUpdateLock>b__33_0()
+   в System.Threading.Tasks.Task`1.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Squirrel.UpdateManager.<CheckForUpdate>d__8.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()<---
+
+[25.01.25 19:06:57] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[25.01.25 19:06:57] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[25.01.25 19:06:57] info: CheckForUpdateImpl: Generated new staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[25.01.25 19:06:57] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[25.01.25 19:06:57] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.34&arch=amd64
+[25.01.25 19:06:58] info: Program: Finished Squirrel Updater
+[25.01.25 19:27:20] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[25.01.25 19:27:20] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[25.01.25 19:27:20] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[25.01.25 19:27:20] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[25.01.25 19:27:21] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.34&arch=amd64
+[25.01.25 19:27:21] info: Program: Finished Squirrel Updater
+[25.01.25 22:41:30] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[25.01.25 22:41:30] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[25.01.25 22:41:30] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[25.01.25 22:41:30] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[25.01.25 22:41:31] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.34&arch=amd64
+[25.01.25 22:41:32] info: Program: Finished Squirrel Updater
+[27.01.25 00:00:05] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[27.01.25 00:00:05] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[27.01.25 00:00:05] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[27.01.25 00:00:05] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[27.01.25 00:00:05] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.34&arch=amd64
+[27.01.25 00:00:06] info: Program: Finished Squirrel Updater
+[27.01.25 23:44:42] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[27.01.25 23:44:42] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[27.01.25 23:44:42] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[27.01.25 23:44:42] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[27.01.25 23:44:42] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.34&arch=amd64
+[27.01.25 23:44:43] info: Program: Finished Squirrel Updater
+[28.01.25 21:06:33] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[28.01.25 21:06:33] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[28.01.25 21:06:33] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[28.01.25 21:06:33] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[28.01.25 21:06:33] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.34&arch=amd64
+[28.01.25 21:06:34] info: Program: Finished Squirrel Updater
+[29.01.25 20:06:26] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[29.01.25 20:06:26] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[29.01.25 20:06:26] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[29.01.25 20:06:26] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[29.01.25 20:06:26] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.34&arch=amd64
+[29.01.25 20:06:27] info: Program: Finished Squirrel Updater
+[29.01.25 22:19:01] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[29.01.25 22:19:01] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[29.01.25 22:19:01] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[29.01.25 22:19:02] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[29.01.25 22:19:02] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.34&arch=amd64
+[29.01.25 22:19:02] info: Program: Finished Squirrel Updater
+[30.01.25 18:35:09] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[30.01.25 18:35:09] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[30.01.25 18:35:09] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[30.01.25 18:35:09] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[30.01.25 18:35:09] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.34&arch=amd64
+[30.01.25 18:35:10] info: Program: Finished Squirrel Updater
+[31.01.25 00:35:00] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[31.01.25 00:35:00] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[31.01.25 00:35:00] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[31.01.25 00:35:00] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[31.01.25 00:35:00] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.34&arch=amd64
+[31.01.25 00:35:01] info: Program: Finished Squirrel Updater
+[31.01.25 21:17:19] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[31.01.25 21:17:19] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[31.01.25 21:17:20] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[31.01.25 21:17:20] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[31.01.25 21:17:20] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.34&arch=amd64
+[31.01.25 21:17:20] info: Program: Finished Squirrel Updater
+[01.02.25 01:03:07] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[01.02.25 01:03:08] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[01.02.25 01:03:08] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[01.02.25 01:03:08] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[01.02.25 01:03:08] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.34&arch=amd64
+[01.02.25 01:03:09] info: Program: Finished Squirrel Updater
+[01.02.25 20:00:01] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[01.02.25 20:00:01] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[01.02.25 20:00:01] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[01.02.25 20:00:01] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[01.02.25 20:00:01] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.34&arch=amd64
+[01.02.25 20:00:02] info: Program: Finished Squirrel Updater
+[02.02.25 01:59:59] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[02.02.25 01:59:59] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[02.02.25 01:59:59] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[02.02.25 02:00:00] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[02.02.25 02:00:00] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.34&arch=amd64
+[02.02.25 02:00:00] info: Program: Finished Squirrel Updater
+[02.02.25 22:26:19] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[02.02.25 22:26:19] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[02.02.25 22:26:19] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[02.02.25 22:26:19] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[02.02.25 22:26:19] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.34&arch=amd64
+[02.02.25 22:26:20] info: Program: Finished Squirrel Updater
+[03.02.25 22:36:28] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[03.02.25 22:36:28] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[03.02.25 22:36:28] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[03.02.25 22:36:28] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[03.02.25 22:36:28] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.34&arch=amd64
+[03.02.25 22:36:29] info: Program: Finished Squirrel Updater
+[03.02.25 23:21:11] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[03.02.25 23:21:11] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[03.02.25 23:21:11] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[03.02.25 23:21:11] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[03.02.25 23:21:11] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.34&arch=amd64
+[03.02.25 23:21:12] info: Program: Finished Squirrel Updater
+[04.02.25 22:34:53] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[04.02.25 22:34:53] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[04.02.25 22:34:53] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[04.02.25 22:34:53] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[04.02.25 22:34:53] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.34&arch=amd64
+[04.02.25 22:34:54] info: Program: Finished Squirrel Updater
+[05.02.25 22:38:44] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[05.02.25 22:38:44] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[05.02.25 22:38:44] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[05.02.25 22:38:44] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[05.02.25 22:38:44] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.34&arch=amd64
+[05.02.25 22:38:45] warn: UpdateInfo: Couldn't get release notes for:FACEIT-2.0.35-full.nupkg: System.IO.FileNotFoundException: Файл 'C:\Users\Арсен\AppData\Local\FACEIT\packages\FACEIT-2.0.35-full.nupkg' не найден.
+Имя файла: 'C:\Users\Арсен\AppData\Local\FACEIT\packages\FACEIT-2.0.35-full.nupkg'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   в NuGet.ZipPackage.EnsureManifest()
+   в Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   в Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[05.02.25 22:38:45] info: Program: Finished Squirrel Updater
+[06.02.25 21:23:07] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[06.02.25 21:23:07] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[06.02.25 21:23:07] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[06.02.25 21:23:07] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[06.02.25 21:23:07] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.35&arch=amd64
+[06.02.25 21:23:08] info: Program: Finished Squirrel Updater
+[07.02.25 22:17:49] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[07.02.25 22:17:49] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[07.02.25 22:17:49] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[07.02.25 22:17:49] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[07.02.25 22:17:49] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.35&arch=amd64
+[07.02.25 22:17:49] info: Program: Finished Squirrel Updater
+[08.02.25 21:54:16] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[08.02.25 21:54:16] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[08.02.25 21:54:16] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[08.02.25 21:54:16] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[08.02.25 21:54:17] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.35&arch=amd64
+[08.02.25 21:54:17] info: Program: Finished Squirrel Updater
+[11.02.25 22:37:17] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[11.02.25 22:37:17] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[11.02.25 22:37:17] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[11.02.25 22:37:17] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[11.02.25 22:37:18] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.35&arch=amd64
+[11.02.25 22:37:18] info: Program: Finished Squirrel Updater
+[12.02.25 20:16:39] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[12.02.25 20:16:39] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[12.02.25 20:16:39] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[12.02.25 20:16:39] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[12.02.25 20:16:40] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.35&arch=amd64
+[12.02.25 20:16:40] info: Program: Finished Squirrel Updater
+[13.02.25 22:09:45] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[13.02.25 22:09:45] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[13.02.25 22:09:45] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[13.02.25 22:09:45] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[13.02.25 22:09:45] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.35&arch=amd64
+[13.02.25 22:09:45] info: Program: Finished Squirrel Updater
+[14.02.25 20:36:46] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[14.02.25 20:36:46] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[14.02.25 20:36:46] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[14.02.25 20:36:46] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[14.02.25 20:36:46] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.35&arch=amd64
+[14.02.25 20:36:47] info: Program: Finished Squirrel Updater
+[15.02.25 22:49:29] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[15.02.25 22:49:29] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[15.02.25 22:49:30] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[15.02.25 22:49:30] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[15.02.25 22:49:30] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.35&arch=amd64
+[15.02.25 22:49:30] info: Program: Finished Squirrel Updater
+[16.02.25 20:32:40] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[16.02.25 20:32:40] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[16.02.25 20:32:41] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[16.02.25 20:32:41] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[16.02.25 20:32:41] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.35&arch=amd64
+[16.02.25 20:32:42] info: Program: Finished Squirrel Updater
+[16.02.25 23:45:24] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[16.02.25 23:45:24] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[16.02.25 23:45:25] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[16.02.25 23:45:25] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[16.02.25 23:45:25] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.35&arch=amd64
+[16.02.25 23:45:26] info: Program: Finished Squirrel Updater
+[17.02.25 20:37:10] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[17.02.25 20:37:10] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[17.02.25 20:37:10] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[17.02.25 20:37:10] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[17.02.25 20:37:11] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.35&arch=amd64
+[17.02.25 20:37:11] info: Program: Finished Squirrel Updater
+[18.02.25 23:36:32] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[18.02.25 23:36:32] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[18.02.25 23:36:33] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[18.02.25 23:36:33] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[18.02.25 23:36:33] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.35&arch=amd64
+[18.02.25 23:36:33] info: Program: Finished Squirrel Updater
+[19.02.25 16:05:07] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[19.02.25 16:05:07] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[19.02.25 16:05:08] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[19.02.25 16:05:08] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[19.02.25 16:05:08] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.35&arch=amd64
+[19.02.25 16:05:09] warn: UpdateInfo: Couldn't get release notes for:FACEIT-2.0.36-full.nupkg: System.IO.FileNotFoundException: Файл 'C:\Users\Арсен\AppData\Local\FACEIT\packages\FACEIT-2.0.36-full.nupkg' не найден.
+Имя файла: 'C:\Users\Арсен\AppData\Local\FACEIT\packages\FACEIT-2.0.36-full.nupkg'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   в NuGet.ZipPackage.EnsureManifest()
+   в Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   в Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[19.02.25 16:05:09] info: Program: Finished Squirrel Updater
+[19.02.25 22:05:02] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[19.02.25 22:05:02] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[19.02.25 22:05:02] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[19.02.25 22:05:02] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[19.02.25 22:05:02] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.36&arch=amd64
+[19.02.25 22:05:03] info: Program: Finished Squirrel Updater
+[21.02.25 22:32:43] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[21.02.25 22:32:43] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[21.02.25 22:32:44] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[21.02.25 22:32:44] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[21.02.25 22:32:44] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.36&arch=amd64
+[21.02.25 22:32:44] warn: UpdateInfo: Couldn't get release notes for:FACEIT-2.0.37-full.nupkg: System.IO.FileNotFoundException: Файл 'C:\Users\Арсен\AppData\Local\FACEIT\packages\FACEIT-2.0.37-full.nupkg' не найден.
+Имя файла: 'C:\Users\Арсен\AppData\Local\FACEIT\packages\FACEIT-2.0.37-full.nupkg'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   в NuGet.ZipPackage.EnsureManifest()
+   в Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   в Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[21.02.25 22:32:44] info: Program: Finished Squirrel Updater
+[22.02.25 19:32:02] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[22.02.25 19:32:02] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[22.02.25 19:32:02] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[22.02.25 19:32:02] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[22.02.25 19:32:02] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.37&arch=amd64
+[22.02.25 19:32:02] info: Program: Finished Squirrel Updater
+[23.02.25 22:33:51] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[23.02.25 22:33:51] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[23.02.25 22:33:51] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[23.02.25 22:33:51] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[23.02.25 22:33:51] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.37&arch=amd64
+[23.02.25 22:33:53] info: Program: Finished Squirrel Updater
+[24.02.25 16:45:37] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[24.02.25 16:45:37] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[24.02.25 16:45:37] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[24.02.25 16:45:37] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[24.02.25 16:45:37] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.37&arch=amd64
+[24.02.25 16:45:38] info: Program: Finished Squirrel Updater
+[24.02.25 16:52:06] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[24.02.25 16:52:06] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[24.02.25 16:52:06] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[24.02.25 16:52:06] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[24.02.25 16:52:07] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.37&arch=amd64
+[24.02.25 16:52:07] info: Program: Finished Squirrel Updater
+[24.02.25 21:38:37] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[24.02.25 21:38:37] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[24.02.25 21:38:37] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[24.02.25 21:38:37] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[24.02.25 21:38:37] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.37&arch=amd64
+[24.02.25 21:38:38] info: Program: Finished Squirrel Updater
+[26.02.25 21:29:03] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[26.02.25 21:29:03] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[26.02.25 21:29:04] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[26.02.25 21:29:04] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[26.02.25 21:29:04] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.37&arch=amd64
+[26.02.25 21:29:04] warn: UpdateInfo: Couldn't get release notes for:FACEIT-2.0.39-full.nupkg: System.IO.FileNotFoundException: Файл 'C:\Users\Арсен\AppData\Local\FACEIT\packages\FACEIT-2.0.39-full.nupkg' не найден.
+Имя файла: 'C:\Users\Арсен\AppData\Local\FACEIT\packages\FACEIT-2.0.39-full.nupkg'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   в NuGet.ZipPackage.EnsureManifest()
+   в Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   в Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[26.02.25 21:29:04] info: Program: Finished Squirrel Updater
+[27.02.25 23:17:11] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[27.02.25 23:17:11] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[27.02.25 23:17:11] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[27.02.25 23:17:11] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[27.02.25 23:17:11] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.39&arch=amd64
+[27.02.25 23:17:12] warn: UpdateInfo: Couldn't get release notes for:FACEIT-2.0.40-full.nupkg: System.IO.FileNotFoundException: Файл 'C:\Users\Арсен\AppData\Local\FACEIT\packages\FACEIT-2.0.40-full.nupkg' не найден.
+Имя файла: 'C:\Users\Арсен\AppData\Local\FACEIT\packages\FACEIT-2.0.40-full.nupkg'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   в NuGet.ZipPackage.EnsureManifest()
+   в Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   в Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[27.02.25 23:17:12] info: Program: Finished Squirrel Updater
+[28.02.25 21:54:45] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[28.02.25 21:54:45] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[28.02.25 21:54:45] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[28.02.25 21:54:45] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[28.02.25 21:54:45] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.40&arch=amd64
+[28.02.25 21:54:46] info: Program: Finished Squirrel Updater
+[01.03.25 21:54:25] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[01.03.25 21:54:25] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[01.03.25 21:54:25] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[01.03.25 21:54:25] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[01.03.25 21:54:25] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.40&arch=amd64
+[01.03.25 21:54:25] info: Program: Finished Squirrel Updater
+[02.03.25 22:08:49] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[02.03.25 22:08:49] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[02.03.25 22:08:49] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[02.03.25 22:08:49] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[02.03.25 22:08:49] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.40&arch=amd64
+[02.03.25 22:08:50] info: Program: Finished Squirrel Updater
+[04.03.25 22:30:52] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[04.03.25 22:30:52] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[04.03.25 22:30:52] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[04.03.25 22:30:52] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[04.03.25 22:30:52] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.40&arch=amd64
+[04.03.25 22:30:52] warn: UpdateInfo: Couldn't get release notes for:FACEIT-2.0.41-full.nupkg: System.IO.FileNotFoundException: Файл 'C:\Users\Арсен\AppData\Local\FACEIT\packages\FACEIT-2.0.41-full.nupkg' не найден.
+Имя файла: 'C:\Users\Арсен\AppData\Local\FACEIT\packages\FACEIT-2.0.41-full.nupkg'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   в NuGet.ZipPackage.EnsureManifest()
+   в Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   в Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[04.03.25 22:30:52] info: Program: Finished Squirrel Updater
+[05.03.25 20:38:36] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[05.03.25 20:38:36] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[05.03.25 20:38:36] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[05.03.25 20:38:36] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[05.03.25 20:38:36] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.41&arch=amd64
+[05.03.25 20:38:36] info: Program: Finished Squirrel Updater
+[06.03.25 23:35:09] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[06.03.25 23:35:09] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[06.03.25 23:35:09] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[06.03.25 23:35:09] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[06.03.25 23:35:09] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.41&arch=amd64
+[06.03.25 23:35:09] info: Program: Finished Squirrel Updater
+[09.03.25 00:17:00] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[09.03.25 00:17:00] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[09.03.25 00:17:00] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[09.03.25 00:17:00] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[09.03.25 00:17:00] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.41&arch=amd64
+[09.03.25 00:17:00] info: Program: Finished Squirrel Updater
+[09.03.25 21:22:44] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[09.03.25 21:22:44] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[09.03.25 21:22:45] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[09.03.25 21:22:45] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[09.03.25 21:22:45] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.41&arch=amd64
+[09.03.25 21:22:45] info: Program: Finished Squirrel Updater
+[12.03.25 21:53:18] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[12.03.25 21:53:18] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[12.03.25 21:53:18] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[12.03.25 21:53:18] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[12.03.25 21:53:18] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.41&arch=amd64
+[12.03.25 21:53:24] warn: UpdateInfo: Couldn't get release notes for:FACEIT-2.0.42-full.nupkg: System.IO.FileNotFoundException: Файл 'C:\Users\Арсен\AppData\Local\FACEIT\packages\FACEIT-2.0.42-full.nupkg' не найден.
+Имя файла: 'C:\Users\Арсен\AppData\Local\FACEIT\packages\FACEIT-2.0.42-full.nupkg'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   в NuGet.ZipPackage.EnsureManifest()
+   в Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   в Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[12.03.25 21:53:24] info: Program: Finished Squirrel Updater
+[16.03.25 23:21:22] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[16.03.25 23:21:22] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[16.03.25 23:21:22] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[16.03.25 23:21:22] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[16.03.25 23:21:22] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.42&arch=amd64
+[16.03.25 23:21:24] info: Program: Finished Squirrel Updater
+[17.03.25 23:32:48] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[17.03.25 23:32:48] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[17.03.25 23:32:48] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[17.03.25 23:32:49] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[17.03.25 23:32:49] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.42&arch=amd64
+[17.03.25 23:32:49] info: Program: Finished Squirrel Updater
+[20.03.25 21:09:59] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[20.03.25 21:09:59] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[20.03.25 21:09:59] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[20.03.25 21:09:59] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[20.03.25 21:09:59] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.42&arch=amd64
+[20.03.25 21:10:00] warn: UpdateInfo: Couldn't get release notes for:FACEIT-2.0.44-full.nupkg: System.IO.FileNotFoundException: Файл 'C:\Users\Арсен\AppData\Local\FACEIT\packages\FACEIT-2.0.44-full.nupkg' не найден.
+Имя файла: 'C:\Users\Арсен\AppData\Local\FACEIT\packages\FACEIT-2.0.44-full.nupkg'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   в NuGet.ZipPackage.EnsureManifest()
+   в Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   в Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[20.03.25 21:10:00] info: Program: Finished Squirrel Updater
+[23.03.25 20:31:41] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[23.03.25 20:31:41] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[23.03.25 20:31:41] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[23.03.25 20:31:41] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[23.03.25 20:31:41] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.44&arch=amd64
+[23.03.25 20:31:41] info: Program: Finished Squirrel Updater
+[24.03.25 23:07:42] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[24.03.25 23:07:42] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[24.03.25 23:07:42] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[24.03.25 23:07:42] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[24.03.25 23:07:42] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.44&arch=amd64
+[24.03.25 23:07:43] info: Program: Finished Squirrel Updater
+[25.03.25 21:54:00] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[25.03.25 21:54:00] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[25.03.25 21:54:00] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[25.03.25 21:54:00] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[25.03.25 21:54:01] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.44&arch=amd64
+[25.03.25 21:54:01] warn: UpdateInfo: Couldn't get release notes for:FACEIT-2.0.45-full.nupkg: System.IO.FileNotFoundException: Файл 'C:\Users\Арсен\AppData\Local\FACEIT\packages\FACEIT-2.0.45-full.nupkg' не найден.
+Имя файла: 'C:\Users\Арсен\AppData\Local\FACEIT\packages\FACEIT-2.0.45-full.nupkg'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   в NuGet.ZipPackage.EnsureManifest()
+   в Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   в Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[25.03.25 21:54:01] info: Program: Finished Squirrel Updater
+[26.03.25 23:21:21] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[26.03.25 23:21:21] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[26.03.25 23:21:21] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[26.03.25 23:21:21] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[26.03.25 23:21:22] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.45&arch=amd64
+[26.03.25 23:21:22] info: Program: Finished Squirrel Updater
+[29.03.25 21:14:49] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[29.03.25 21:14:49] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[29.03.25 21:14:49] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[29.03.25 21:14:49] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[29.03.25 21:14:50] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.45&arch=amd64
+[29.03.25 21:14:50] info: Program: Finished Squirrel Updater
+[03.04.25 22:52:32] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[03.04.25 22:52:32] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[03.04.25 22:52:32] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[03.04.25 22:52:32] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[03.04.25 22:52:32] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.45&arch=amd64
+[03.04.25 22:52:33] warn: UpdateInfo: Couldn't get release notes for:FACEIT-2.0.47-full.nupkg: System.IO.FileNotFoundException: Файл 'C:\Users\Арсен\AppData\Local\FACEIT\packages\FACEIT-2.0.47-full.nupkg' не найден.
+Имя файла: 'C:\Users\Арсен\AppData\Local\FACEIT\packages\FACEIT-2.0.47-full.nupkg'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   в NuGet.ZipPackage.EnsureManifest()
+   в Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   в Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[03.04.25 22:52:33] info: Program: Finished Squirrel Updater
+[04.04.25 23:15:21] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[04.04.25 23:15:21] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[04.04.25 23:15:21] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[04.04.25 23:15:21] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[04.04.25 23:15:21] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.47&arch=amd64
+[04.04.25 23:15:23] info: Program: Finished Squirrel Updater
+[05.04.25 22:25:28] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[05.04.25 22:25:28] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[05.04.25 22:25:28] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[05.04.25 22:25:28] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[05.04.25 22:25:28] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.47&arch=amd64
+[05.04.25 22:25:28] info: Program: Finished Squirrel Updater
+[06.04.25 23:23:48] info: Program: Starting Squirrel Updater: --checkForUpdate https://faceit-client.faceit-cdn.net/release
+[06.04.25 23:23:48] info: Program: Fetching update information, downloading from https://faceit-client.faceit-cdn.net/release
+[06.04.25 23:23:48] info: CheckForUpdateImpl: Using existing staging user ID: 6449b28a-6023-5db6-a89d-ca8c9c90e296
+[06.04.25 23:23:48] info: CheckForUpdateImpl: Downloading RELEASES file from https://faceit-client.faceit-cdn.net/release
+[06.04.25 23:23:48] info: FileDownloader: Downloading url: https://faceit-client.faceit-cdn.net/release/RELEASES?id=FACEIT&localVersion=2.0.47&arch=amd64
+[06.04.25 23:23:49] info: Program: Finished Squirrel Updater

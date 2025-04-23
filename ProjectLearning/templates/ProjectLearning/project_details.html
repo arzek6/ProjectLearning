@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+{% load static %}
+{% load custom_filters %}
+<script>
+    const currentUsername = "{{ request.user.first_name|default:request.user.username }}";
+</script>
+
+
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Описание проекта</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
+    <script src="{% static 'js/script.js' %}"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="{% url 'home' %}" class="logo">Проектное обучение</a>
+            <ul class="nav-links">
+                {% if user.is_authenticated %}
+                <li><a href="{% url 'home' %}">Главная</a></li>
+                <li><a href="{% url 'projects' %}">Проекты</a></li>
+                {% else %}
+                <li><a href="{% url 'home' %}">Главная</a></li>
+                <li><a href="{% url 'login' %}">Проекты</a></li>
+                {% endif %}
+            </ul>
+            <div class="auth-links">
+                {% if user.is_authenticated %}
+                <div class="user-dropdown" id="userDropdown">
+                    <button class="user-button" id="userButton">{{ user.first_name }}</button>
+                    <div class="dropdown-content" id="dropdownMenu">
+                        <form method="post" action="{% url 'logout' %}">
+                            {% csrf_token %}
+                            <button type="submit" class="logout-btn">Выйти</button>
+                        </form>
+                    </div>
+                </div>
+                {% else %}
+                <a href="{% url 'login' %}" class="btn">Войти</a>
+                <a href="{% url 'register' %}" class="btn">Регистрация</a>
+                {% endif %}
+            </div>
+        </nav>
+    </header>
+    
+    <main class="project-container">
+        <h2 id="project-title">{{ project.name }}</h2>
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="description">Описание</button>
+            <button class="tab-btn" data-tab="tasks">Задачи</button>
+            <button class="tab-btn" data-tab="participants">Участники</button>
+            <button class="tab-btn" data-tab="files">Файлы</button>
+            <button id="chat" class="tab-btn" data-tab="chat">Чат</button>
+        </div>
+        
+        <div class="tab-content" id="description">
+            <p>Описание проекта: {{ project.description }}</p>
+            <p>Преподаватель: {{ project.creator.first_name }} {{ project.creator.last_name }}</p>
+            <p>Количество участников: {{ project.members.count }}</p>
+        </div>        
+        
+        <div class="tab-content hidden" id="tasks">
+            {% if project.tasks.all %}
+            <ul>
+                {% for task in project.tasks.all %}
+                    <li>
+                        <input type="checkbox" class="task-checkbox" data-task-id="{{ task.id }}" {% if task.is_completed %}checked{% endif %}>
+                        {{ task.title }}
+                    </li>
+                {% endfor %}
+            </ul>
+            
+            {% else %}
+                <p>Задачи ещё не добавлены.</p>
+            {% endif %}
+        </div>        
+        
+        <div class="tab-content hidden" id="participants">
+            <ul>
+                {% if user.is_authenticated and user.profile and user.profile.role == "teacher" %}
+                <form id="invite-form">
+                    <input type="email" name="email" id="invite-email" placeholder="Email участника" required>
+                    <button type="submit">Пригласить</button>
+                </form>
+                {% endif %}
+                <p id="invite-status"></p>                
+                <li>{{ project.creator.first_name }} {{ project.creator.last_name }} <em>(Преподаватель)</em></li>
+                {% for member in project.members.all %}
+                    <li>{{ member.first_name }} {{ member.last_name }}
+                        {% if user.is_authenticated and user.profile and user.profile.role == "teacher" %} 
+                        <button class="remove-btn" data-user-id="{{ member.id }}">Удалить</button>
+                        {% endif %}
+                    </li>
+                {% empty %}
+                    <li>Нет участников.</li>
+                {% endfor %}
+            </ul>
+        </div>        
+        
+        <div class="tab-content hidden" id="files">
+            <ul>
+                {% for file in chat_files %}
+                    <li>
+                        {% if file.file %}
+                        {{ file.file.name|slice:"11:" }}
+
+                        {% else %}
+                            [Нет файла]
+                        {% endif %}
+
+                        {% if file.file %}
+                            <a href="{{ file.file.url }}" download><button>Скачать</button></a>
+                        {% else %}
+                            <span>Файл не прикреплён</span>
+                        {% endif %}
+
+                    </li>
+                {% empty %}
+                    <li>Файлы ещё не загружены.</li>
+                {% endfor %}
+            </ul>
+        </div>
+        
+        
+        
+        <div class="tab-content hidden" id="chat">
+            <div id="chat-container">
+                <div id="chat-messages" class="chat-box">
+                    {% for message in project.chat_messages.all %}
+                        <p><strong>{{ message.sender.first_name }}:</strong> {{ message.message }}</p>
+                    {% empty %}
+                        <p>Сообщений пока нет.</p>
+                    {% endfor %}
+                </div>
+                <div class="file-upload-wrapper">
+                    <label for="chat-file" class="file-upload-label">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="file-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21.44 11.05 12.05 20.44a5.5 5.5 0 1 1-7.78-7.78l9.19-9.19a3.5 3.5 0 0 1 4.95 4.95l-9.2 9.19a1.5 1.5 0 0 1-2.12-2.12l8.49-8.49" />
+                      </svg>
+                      <span id="file-name-text">Прикрепить файл</span>
+                    </label>
+                    <input type="file" id="chat-file" style="display: none;">
+                </div>
+                  
+                  
+                <input type="text" id="chat-input" placeholder="Введите сообщение...">
+                <button id="chat-send">Отправить</button>
+            </div>
+        </div>
+        
+    </main>
+    <br></br>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Проектное обучение</h3>
+                <p>Платформа для организации проектного обучения, взаимодействия между преподавателями и учениками.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Ссылки</h3>
+                <ul>
+                    {% if user.is_authenticated %}
+                    <li><a href="{% url 'home' %}">Главная</a></li>
+                    <li><a href="{% url 'projects' %}">Проекты</a></li>
+                    <li><a href="{% url 'home' %}">Регистрация</a></li>
+                    {% else %}
+                    <li><a href="{% url 'home' %}">Главная</a></li>
+                    <li><a href="{% url 'login' %}">Проекты</a></li>
+                    <li><a href="{% url 'register' %}">Регистрация</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <p>Email: yornamerator@yandex.ru</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Проектное обучение. Все права защищены.</p>
+
+        </div>
+    </footer>
+</body>
+</html>

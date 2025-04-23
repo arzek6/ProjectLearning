@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проекты</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
+    <script src="{% static 'js/script.js' %}"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="{% url 'home' %}" class="logo">Проектное обучение</a>
+            <ul class="nav-links">
+                {% if user.is_authenticated %}
+                <li><a href="{% url 'home' %}">Главная</a></li>
+                <li><a href="{% url 'projects' %}">Проекты</a></li>
+                {% else %}
+                <li><a href="{% url 'home' %}">Главная</a></li>
+                <li><a href="{% url 'login' %}">Проекты</a></li>
+                {% endif %}
+            </ul>
+            <div class="auth-links">
+                {% if user.is_authenticated %}
+                <div class="user-dropdown" id="userDropdown">
+                    <button class="user-button" id="userButton">{{ user.first_name }}</button>
+                    <div class="dropdown-content" id="dropdownMenu">
+                        <form method="post" action="{% url 'logout' %}">
+                            {% csrf_token %}
+                            <button type="submit" class="logout-btn">Выйти</button>
+                        </form>
+                    </div>
+                </div>
+                {% else %}
+                <a href="{% url 'login' %}" class="btn">Войти</a>
+                <a href="{% url 'register' %}" class="btn">Регистрация</a>
+                {% endif %}
+            </div>
+        </nav>
+    </header>
+    
+    <main class="projects-container">
+        <h2>Список проектов</h2>
+    
+        <div class="project-controls">
+            <div class="controls-wrapper">
+                <form method="get" action="{% url 'projects' %}" class="project-search-form" id="searchForm">
+                    <input type="text" name="q" id="projectSearch" class="project-search" placeholder="Поиск проектов...">
+                </form>
+                {% if user.is_authenticated and user.profile and user.profile.role == "teacher" %}
+
+                <a href="{% url 'create_project' %}" class="btn create-btn">Создать проект</a>
+                {% endif %}
+            </div>
+        </div>
+        
+    
+        <div class="projects-list" id="projectsList">
+            {% include 'ProjectLearning/projects_list.html' %}
+            
+            <!-- {% if projects %}
+
+            {% for project in projects %}
+            <div class="project-card">
+                <h3>{{ project.name }}</h3>
+                <p>{{ project.short_description }}</p>
+                <a href="{% url 'project_detail' project_id=project.id %}" class="btn">Подробнее</a>
+            </div>
+            {% endfor %}
+            {% else %}
+
+                <p>На данный момент нет проектов.</p>
+            {% endif %}
+        -->
+    
+            <!-- Можно добавить больше проектов аналогично -->
+        </div>
+    </main>
+    
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Проектное обучение</h3>
+                <p>Платформа для организации проектного обучения, взаимодействия между преподавателями и учениками.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Ссылки</h3>
+                <ul>
+                    {% if user.is_authenticated %}
+                    <li><a href="{% url 'home' %}">Главная</a></li>
+                    <li><a href="{% url 'projects' %}">Проекты</a></li>
+                    <li><a href="{% url 'home' %}">Регистрация</a></li>
+                    {% else %}
+                    <li><a href="{% url 'home' %}">Главная</a></li>
+                    <li><a href="{% url 'login' %}">Проекты</a></li>
+                    <li><a href="{% url 'register' %}">Регистрация</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <p>Email: yornamerator@yandex.ru</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Проектное обучение. Все права защищены.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
