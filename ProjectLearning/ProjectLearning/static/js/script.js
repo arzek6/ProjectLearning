@@ -1,4 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
+    function getCSRFToken() {
+        const cookie = document.cookie.match(/csrftoken=([\w-]+)/);
+        return cookie ? cookie[1] : '';
+    }
     // === Tabs ===
     const tabs = document.querySelectorAll(".tab-btn");
     const tabContents = document.querySelectorAll(".tab-content");
